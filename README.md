@@ -1,6 +1,6 @@
-# 🛍️ Retail Domain Chatbot – Streamlit + OpenAI
+# 🛍️ Healthcare Domain Chatbot – Streamlit + OpenAI
 
-A conversational chatbot focused entirely on the **Retail domain**, built using **Streamlit** for the UI and **OpenAI's GPT-3.5** for natural language understanding. The chatbot responds only to retail-related questions and politely rejects unrelated queries to stay domain-specific.
+A conversational chatbot focused entirely on the **Healthcare domain**, built using **Streamlit** for the UI and **OpenAI's GPT-3.5** for natural language understanding. The chatbot responds only to retail-related questions and politely rejects unrelated queries to stay domain-specific.
 
 ---
 
@@ -9,7 +9,7 @@ A conversational chatbot focused entirely on the **Retail domain**, built using 
 - 💬 Conversational interface using Streamlit's `st.chat_*`
 - 🧠 Powered by OpenAI GPT-3.5
 - 🔒 Domain-restricted: Only answers Retail industry topics
-- 🛑 Filters non-retail questions with polite responses
+- 🛑 Filters non domain questions with polite responses
 - 🧾 Maintains session history using `st.session_state`
 
 ---
@@ -17,7 +17,7 @@ A conversational chatbot focused entirely on the **Retail domain**, built using 
 ## 📸 Demo
 
 I have created using streamlit and here is the link: 
-https://sriramretaildomainchatbotapp.streamlit.app/
+https://healtcaredomainchatbotopenaiapp.streamlit.app/
 
 ---
 
@@ -34,8 +34,8 @@ https://sriramretaildomainchatbotapp.streamlit.app/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/RetailDomainChatbot_Streamlit_OpenAI.git
-cd RetailDomainChatbot_Streamlit_OpenAI
+git clone https://github.com/anuradha2504/HealtcareDomainChatbot_OpenAI_Streamlit
+
 ```
 
 ### 2. Create a Virtual Environment (optional but recommended)
