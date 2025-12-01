@@ -36,7 +36,7 @@ You are not a doctor, so always remind the user to consult a licensed medical pr
 
 def ask_chatbot(user_input):
     try:
-        response = openai.ChatCompletion.create(
+        response = OpenAI.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": system_prompt},
@@ -60,3 +60,4 @@ if st.button("Send"):
     if user_input:
         response = ask_chatbot(user_input)
         st.success(f"Chatbot: {response}")
+
